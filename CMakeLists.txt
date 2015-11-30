@@ -28,6 +28,7 @@ set (CPACK_PACKAGE_VERSION ${GLOG_VERSION})
 
 option (WITH_GFLAGS "Use gflags" ON)
 option (WITH_THREADS "Enable multithreading support" ON)
+option (BUILD_WITH_STATIC_CRT "Use CRT Static Runtime Library on Visual Studio" OFF)
 
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
